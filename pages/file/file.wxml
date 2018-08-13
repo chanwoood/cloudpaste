@@ -1,0 +1,5 @@
+<!--pages/file/file.wxml-->
+<view>
+<button bindtap='upLoad'>上传</button>
+</view>
+<web-view src="https://cowtransfer.com/"></web-view>

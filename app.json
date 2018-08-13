@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/file/file",
+    "pages/text/text",
+    "pages/link/link"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "云剪贴",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/link/link",
+        "text": "链接",
+        "iconPath": "images/link.png",
+        "selectedIconPath": "images/links.png"
+      },
+      {
+        "pagePath": "pages/text/text",
+        "text": "文本",
+        "iconPath": "images/text.png",
+        "selectedIconPath": "images/texts.png"
+      },
+      {
+        "pagePath": "pages/file/file",
+        "text": "文件",
+        "iconPath": "images/file.png",
+        "selectedIconPath": "images/files.png"
+      }
+    ]
+  }
+}

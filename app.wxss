@@ -1,0 +1,23 @@
+/**app.wxss**/
+page {
+  height: 100%;
+  background-color: #F5F5D5;
+  position: fixed
+}
+
+.one{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60rpx
+}
+.btn1{
+  background-color: #FE838A
+}
+.btn2{
+  background-color: #F54AE5
+}
+.btn3{
+  background-color: #FE838A
+}
+

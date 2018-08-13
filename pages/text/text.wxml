@@ -1,0 +1,13 @@
+<view class="all">
+  <view class="container">
+    <textarea  class="text" value="{{text}}" placeholder="输入需要复制的文本" maxlength='-1' bindinput='listenInput' />
+  </view>
+  <view class="one">
+    <button bindtap='clear' class="btn1" hover-class="btn2"> 清空 </button>
+    <button bindtap='make' class="btn1" hover-class="btn2"> 生成 </button>
+  </view>
+  <view class="two" hidden="{{hidden}}">
+    <text class="newlink">{{newLink}}</text>
+    <button bindtap='copy' class='btn2' hover-class="btn3">复制</button>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view class="all">
+  <view class="container">
+    <input placeholder="请输入需要缩短的网址"  class="input" bindinput="input" value='{{linkInput}}' />
+    <view class="one">
+      <button bindtap='clear' class="btn1" hover-class="btn2"> 清空 </button>
+      <button bindtap='shorten' class="btn1" hover-class="btn2"> 缩短 </button>
+    </view>
+    <view class="two" hidden="{{hidden}}">
+      <text>{{newLink}}</text>
+      <button bindtap='copy' class='btn2' hover-class="btn3">复制</button>
+    </view>
+  </view>
+</view>

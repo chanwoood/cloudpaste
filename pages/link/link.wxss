@@ -1,0 +1,22 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.input {
+  border: 2px solid purple;
+  margin: 3%;
+  padding: 8px
+}
+.two{
+  display: flex;
+  flex-direction: column;
+  margin: 100rpx;
+  align-items: center
+}

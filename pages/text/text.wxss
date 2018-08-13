@@ -1,0 +1,25 @@
+.container{
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.text{
+  position: relative;
+  top: 50rpx;
+  height: 700rpx;
+  border: solid 2rpx #0a90dd;
+  background-color: #ebd5e0;
+  width: 92%
+}
+.two{
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+.newlink{
+  position: relative;
+  left: 40px
+}
