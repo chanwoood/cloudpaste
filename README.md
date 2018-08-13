@@ -19,7 +19,7 @@
 
 
 
-![image.png | center | 300x533.3333333333333](https://cdn.nlark.com/yuque/0/2018/png/104735/1534163625487-b8c7bd36-d758-4324-8fa5-8597d65e3f9b.png "")
+![链接](https://upload-images.jianshu.io/upload_images/5690299-bb11c05e6fac3fcd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 把一条长链接转换为短链接，我选用的是新浪短链接 API 。
@@ -32,7 +32,7 @@
 
 
 
-![image.png | center | 279x496](https://cdn.nlark.com/yuque/0/2018/png/104735/1534163671434-90016635-557a-4c45-b6ae-2aa82e59a154.png "")
+![文本](https://upload-images.jianshu.io/upload_images/5690299-0f0a0d709a6315ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 很多可以剪贴文本，生成在线访问的网址都是国外的，如 [http://paste.ubuntu.com/](http://paste.ubuntu.com/) ，这些国外网址都没有 ICP 证书，而腾讯方面又要求所访问的域名都必须有 ICP 证书，且 HTTPs 加密。
