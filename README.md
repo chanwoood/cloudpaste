@@ -1,7 +1,7 @@
 # 云剪贴
 
 
-![image.png | center | 430x430](https://cdn.nlark.com/yuque/0/2018/png/104735/1534160825377-36d41d08-fb6f-4e1e-ae43-b79ef5ec7d7c.png "")
+![mp](https://upload-images.jianshu.io/upload_images/5690299-834684902e038a83.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ## 说明
