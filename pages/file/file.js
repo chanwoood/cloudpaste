@@ -1,47 +1,66 @@
+// pages/file/file.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
   
   },
-  onShow: function () {
 
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+  
   },
-  upLoad: function () {
-    wx: wx.chooseImage({
-      success: function (res) {
-        var tempFilePaths = res.tempFilePaths
-        wx.uploadFile({
-          url: 'https://cowtransfer.com/transfer/preparesend',
-          filePath: tempFilePaths[0],
-          header: {
-            "content-type": "multipart/form-data"
-            },
-          name: 'file',
-          formData: {
-            // 'user': 'test'
-          },
-          success: function (res) {
-            console.log(res)
-            wx.uploadFile({
-              url: 'https://upload.qiniup.com/',
-              filePath: tempFilePaths[0],
-              header: {
-                "content-type": "multipart/form-data"
-              },
-              name: 'file',
-              formData: {
-                'token': "rkrC3sADAVnBtSQ_YTQgxi-3TEVapbu6rxmtmg0v:F6X9qaMQV_dUICZZ6XwwGdyym2I=:eyJzY29wZSI6ImNmdHJhbnNmZXIiLCJkZWFkbGluZSI6MTUzNDA3ODcxMH0="
 
-              },
-              success: function (res) {
-                console.log("-----------")
-                console.log(res)
-                console.log("-----------")
-              }
-            })
-          }
-        })
-        
-      }
-    })
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+  
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+  
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+  
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+  
   }
 })

@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/file/file",
     "pages/text/text",
+    "pages/file/file",
     "pages/link/link"
   ],
   "window":{

@@ -7,13 +7,16 @@ Page({
     "hidden": true,
     "linkInput": ""
   },
-  onShow: function() {
+  onLoad: function (options) {
     var _this = this
     wx.getClipboardData({
       success: function (res) {
         _this.setData({ linkInput: res.data, link: res.data })
       }
     })
+  },
+  onShow: function() {
+
   },
 
   input: function(e) {

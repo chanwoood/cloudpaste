@@ -6,13 +6,15 @@ Page({
     "link": "",
     "newLink": ""
   },
-  onShow: function () {
+  onLoad: function (options) {
     var _this = this
     wx.getClipboardData({
       success: function (res) {
-        _this.setData({ text: res.data })
+        _this.setData({ text: res.data, link: res.data })
       }
     })
+  },
+  onShow: function () {
   },
 
   listenInput: function (e) {
